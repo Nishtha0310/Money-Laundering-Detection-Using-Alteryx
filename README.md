@@ -14,11 +14,23 @@ Data Cleansing: Select, Data Standardisation
 Data Transformation: Summarise, Sort, Multi-Row Formula
 Automation: Workflow Execution with Iterative Macros
 
+# How to Use
+Download the money_laundering_detection.yxmd workflow file or use the money_laundering_detection.yxzp file for the complete packaged workflow with sample data.
+Open the file in Alteryx Designer:
+If you're using the .yxmd file, connect your own data source or synthetic dataset.
+If you don't want to use your own data, open the .yxzp file, which contains the workflow and synthetic financial data.
+Run the workflow to analyse and flag suspicious transactions based on the risk scores calculated by the predictive models.
+
 # How to Run:
-Download the money_laundering_detection.yxmd Alteryx workflow file.
+Download the money_laundering_detection.yxmd/.yxzpAlteryx workflow file.
 Open the workflow in Alteryx Designer.
 Connect the provided synthetic transaction dataset or use your own transaction data.
 Run the workflow to analyse and flag suspicious financial transactions based on risk levels.
+
+# Key Features
+Predictive Modelling: Implements Boosted Models and Neural Networks to assess transaction risk.
+Data Transformation: Uses Alteryx tools like Join, Filter, and Formula to manipulate and clean transaction data.
+Automation: Workflow automation allows for continuous transaction monitoring.
 
 # Project Outcomes:
 Successfully identified and flagged high-risk transactions based on predictive modelling.
